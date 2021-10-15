@@ -48,5 +48,6 @@ public class Mover : MonoBehaviour
         rb.freezeRotation = true;
         transform.Rotate(-Vector3.forward * rotationFrame * Time.deltaTime);
         rb.freezeRotation = false;
+        // This is my code
     }
 }
